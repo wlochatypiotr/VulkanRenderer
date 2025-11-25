@@ -1,0 +1,13 @@
+.obj
+.db
+*.db
+*.obj
+*.vsidx
+/GamePhys.B021DB63/x64/Debug/GamePhys.B021DB63.tlog
+/GamePhys.B021DB63/x64/Debug
+.vs/GamePhysicsWeekend/v17/ipch/AutoPCH/f2fed9cf8e2afe6e/APPLICATION.ipch
+x64/Debug/GamePhysicsWeekend.exe
+x64/Debug/GamePhysicsWeekend.pdb
+.vs/GamePhysicsWeekend/v17/.suo
+.vs/GamePhysicsWeekend/v17/DocumentLayout.json
+/.vs/GamePhysicsWeekend/v17

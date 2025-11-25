@@ -67,4 +67,14 @@ Scene::Update
 */
 void Scene::Update( const float dt_sec ) {
 	// TODO: Add code
+	for (int i = 0; i < m_bodies.size(); i++ )
+	{
+		// gravitational acceleration
+		m_bodies[1].m_linearVelocity += Vec3(0,0,-10) * dt_sec;
+	}
+	
+	for (Body& body : m_bodies)
+	{
+		body.m_position += body.m_linearVelocity * dt_sec;
+	}
 }
